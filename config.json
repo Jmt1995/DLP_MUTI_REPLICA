@@ -1,0 +1,9 @@
+{
+  "DISK_num": 100,
+    "Latency_range": {
+  "min": 10,
+  "max": 500
+  },
+  "DATA_NUM": 1500,
+  "REP_FAC": 3
+}
