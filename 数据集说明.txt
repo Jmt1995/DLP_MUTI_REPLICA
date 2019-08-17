@@ -1,0 +1,31 @@
+r_data_60 50 disk 1000个任务 3 副本 10-500
+r_data_61 50 disk 3000个任务 3 副本 10-500
+r_data_62 50 disk 4000个任务 3 副本 10-500
+r_data_63 50 disk 5000个任务 3 副本 10-500  （fig1）			（ins3）
+
+Result_data_1 50disk 500任务 3副本 10-500   （fig1）			（ins1）
+Result_data_2 50disk 2000任务 3副本 10-500 （fig1）（fig2）    （fig3）	（ins2）
+Result_data_3 50 disk 2000任务 3副本 10-100            （fig2）
+
+
+Result_data_4 50disk 2000任务 5副本 10-100 （fig3）
+Result_data_5 50disk 2000任务 5副本 10-500		（fig3）
+
+Result_data_6 50disk 2000任务 2副本 10-500 		（fig3）
+
+
+
+Result_data_7 500disk 2000任务 3副本 10-500 
+
+
+Result_data1_4 50disk 2000任务 3副本 10-500 （fig3）        fig2） ins2
+Result_data1_5 50disk 2000任务 5副本 10-500 （fig3）
+Result_data1_6 50disk 2000任务 2副本 10-500 （fig3）
+
+Result_data1_7 50disk 2000任务 2副本 10-100 		fig2）
+Result_data1_8 50disk 500任务 3副本 10-500	 
+Result_data1_9 50disk 500任务 3副本 10-500	ins1  	
+Result_data1_10 50disk 5000任务 3副本 10-500	ins3
+
+
+Result_data1_11 50disk 2000任务 2副本 10-100  10批

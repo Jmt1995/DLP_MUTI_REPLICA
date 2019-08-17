@@ -4,7 +4,7 @@ import json
 
 
 def readFile():
-    with open('E:\py\DLP_MUTI_REPLICA\config.json') as config_file:
+    with open('config.json') as config_file:
         try:
             config_data = json.load(config_file)
             # print(config_data)

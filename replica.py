@@ -12,6 +12,9 @@ class Replica:
 
     def set_disk_id(self, disk_id):
         self.disk_id = disk_id
-
+    def get_data_id(self):
+        return self.data_id
+    def get_disk_id(self):
+        return self.disk_id
     def set_load(self, load):
         self.load = load
