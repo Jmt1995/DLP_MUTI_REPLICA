@@ -1,7 +1,7 @@
 {
   "DISK_num": 50,
     "Latency_range": {
-  "min": 10,
+  "min": 200,
   "max": 500
   },
   "DATA_NUM": 2000,

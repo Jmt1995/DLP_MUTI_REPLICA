@@ -37,10 +37,10 @@ def workload_on_complete(small, medium, large):
 
     rects2 = ax.bar(index + 2*bar_width, HTS_rdm, bar_width,
                     alpha=opacity, color='#70AD47',
-                    label='WASH-rdm', hatch = '+')
+                    label='$r$WASH', hatch = '+')
 
     ax.set_xlabel('Workloads', size = 14)
-    ax.set_ylabel('Normalized Load', size = 14)
+    ax.set_ylabel('Normalized Task Reading Time', size = 14)
     # ax.set_title('Scores by group and gender')
 
     ax.set_xticks(index + bar_width / 2 + 0.12)
@@ -48,7 +48,7 @@ def workload_on_complete(small, medium, large):
     ax.legend()
 
     fig.tight_layout()
-    file_name = "figcomplete1_5.eps"
+    file_name = "figcomplete1_8.eps"
     plt.savefig(file_name, bbox_inches='tight', format='eps', dpi=5000)
     plt.show()
 def heter_on_complete(small, medium):
@@ -76,10 +76,10 @@ def heter_on_complete(small, medium):
 
     rects2 = ax.bar(index + 2*bar_width, HTS_rdm, bar_width,
                     alpha=opacity, color='#70AD47',
-                    label='WASH-rdm', hatch = '+')
+                    label='$r$WASH', hatch = '+')
 
     ax.set_xlabel('Heterogeneity', size = 14)
-    ax.set_ylabel('Normalized Load', size = 14)
+    ax.set_ylabel('Normalized Reading Time', size = 14)
     # ax.set_title('Scores by group and gender')
 
     ax.set_xticks(index + bar_width / 2 +0.12 )
@@ -87,7 +87,7 @@ def heter_on_complete(small, medium):
     ax.legend()
 
     fig.tight_layout()
-    file_name = "figcomplete2_5.eps"
+    file_name = "figcomplete2_8.eps"
     plt.savefig(file_name, bbox_inches='tight', format='eps', dpi=5000)
     plt.show()
 def replica_on_complete(small, medium, large):
@@ -114,10 +114,10 @@ def replica_on_complete(small, medium, large):
 
     rects2 = ax.bar(index + 2*bar_width, HTS_rdm, bar_width,
                     alpha=opacity, color='#70AD47',
-                    label='WASH-rdm', hatch = '+')
+                    label='$r$WASH', hatch = '+')
 
     ax.set_xlabel('Redundancy factor C', size = 14)
-    ax.set_ylabel('Normalized Load', size = 14)
+    ax.set_ylabel('Normalized Reading Time', size = 14)
     # ax.set_title('Scores by group and gender')
 
     ax.set_xticks(index + bar_width / 2 + 0.12)
@@ -128,7 +128,7 @@ def replica_on_complete(small, medium, large):
     ax.legend()
 
     fig.tight_layout()
-    file_name = "figcomplete3_5.eps"
+    file_name = "figcomplete3_8.eps"
     plt.savefig(file_name, bbox_inches='tight', format='eps', dpi=5000)
     plt.show()
 def complete_fig1():
@@ -160,6 +160,7 @@ def complete_fig1():
 
     y_sum = np.array(y1[0])
     load_sum = load1[0][0]
+    i = 0
     for i in range(1, len(y1)):
         y_sum = y_sum + np.array(y1[i])
         load_sum = load_sum + load1[i][0]
@@ -182,6 +183,7 @@ def complete_fig1():
 
     y_sum = np.array(y3[0])
     load_sum = load3[0][0]
+    i = 0
     for i in range(1, len(y3)):
         y_sum = y_sum + np.array(y3[i])
         load_sum = load_sum + load3[i][0]
@@ -220,6 +222,7 @@ def complete_fig1():
 
     y_sum = np.array(y1[0])
     load_sum = load1[0][0]
+    i = 0
     for i in range(1, len(y1)):
         y_sum = y_sum + np.array(y1[i])
         load_sum = load_sum + load1[i][0]
@@ -242,6 +245,7 @@ def complete_fig1():
 
     y_sum = np.array(y3[0])
     load_sum = load3[0][0]
+    i = 0
     for i in range(1, len(y3)):
         y_sum = y_sum + np.array(y3[i])
         load_sum = load_sum + load3[i][0]
@@ -303,6 +307,7 @@ def complete_fig1():
 
     y_sum = np.array(y1[0])
     load_sum = load1[0][0]
+    i = 0
     for i in range(1, len(y1)):
         y_sum = y_sum + np.array(y1[i])
         load_sum = load_sum + load1[i][0]
@@ -314,6 +319,7 @@ def complete_fig1():
 
     y_sum = np.array(y2[0])
     load_sum = load2[0][0]
+    i = 0
     for i in range(1, len(y2)):
         y_sum = y_sum + np.array(y2[i])
         load_sum = load_sum + load2[i][0]
@@ -325,6 +331,7 @@ def complete_fig1():
 
     y_sum = np.array(y3[0])
     load_sum = load3[0][0]
+    i  = 0
     for i in range(1, len(y3)):
         y_sum = y_sum + np.array(y3[i])
         load_sum = load_sum + load3[i][0]
@@ -341,19 +348,26 @@ def complete_fig1():
     print(Result)
     RES = list()
     max_ = load1_avg
-    for item in Result:
+
+    #折线图上是平均值，这里也应该用平均值计算，这是平均值计算的结果
+    R = [(756.0, 405.0, 234), (2244.0, 1495.0, 1116.0), (5170.0, 3611.0, 2312.8)]
+    max_ = 5170
+    for item in R:
         c = item[2] / max_
         b = item[1] / max_
         a = item[0] / max_
         RES.append((a, b, c))
     print(RES)
-    heter_on_complete(RES[0], RES[1])
+
+
+    # heter_on_complete(RES[0], RES[1])
+
 
 
     workload_on_complete(RES[0], RES[1], RES[2])
 def complete_fig2():
     Result = list()
-    with open("Result_data1_11", "r") as file:
+    with open("Result_data1_7", "r") as file:
         batchs = json.load(file, object_pairs_hook=OrderedDict)
     print(batchs)
     x1 = list()
@@ -392,6 +406,7 @@ def complete_fig2():
 
     y_sum = np.array(y2[0])
     load_sum = load2[0][0]
+    i = 0
     for i in range(1, len(y2)):
         y_sum = y_sum + np.array(y2[i])
         load_sum = load_sum + load2[i][0]
@@ -403,6 +418,7 @@ def complete_fig2():
 
     y_sum = np.array(y3[0])
     load_sum = load3[0][0]
+    i = 0
     for i in range(1, len(y3)):
         y_sum = y_sum + np.array(y3[i])
         load_sum = load_sum + load3[i][0]
@@ -414,7 +430,7 @@ def complete_fig2():
     Result.append((load1_avg, load2_avg, load3_avg))
     print((load1_avg, load2_avg, load3_avg))
     ##################################
-    with open("Result_data", "r") as file:
+    with open("Result_data1_4", "r") as file:
         batchs = json.load(file, object_pairs_hook=OrderedDict)
     print(batchs)
     x1 = list()
@@ -453,6 +469,7 @@ def complete_fig2():
 
     y_sum = np.array(y2[0])
     load_sum = load2[0][0]
+    i = 0
     for i in range(1, len(y2)):
         y_sum = y_sum + np.array(y2[i])
         load_sum = load_sum + load2[i][0]
@@ -464,6 +481,7 @@ def complete_fig2():
 
     y_sum = np.array(y3[0])
     load_sum = load3[0][0]
+    i = 0
     for i in range(1, len(y3)):
         y_sum = y_sum + np.array(y3[i])
         load_sum = load_sum + load3[i][0]
@@ -694,9 +712,9 @@ if __name__ == '__main__':
     """
     不同的workload之下的完成图图
     """
-    # complete_fig1()
-    complete_fig2()
-    # complete_fig3()
+    complete_fig1()
+    # complete_fig2()
+    complete_fig3()
 
 
 # [(645.0, 282.0, 384.0), (2009.0, 784.0, 1003.6), (5546, 2205, 2646)]

@@ -1,12 +1,12 @@
 %!PS-Adobe-3.0 EPSF-3.0
-%%Title: figcomplete3_5.eps
+%%Title: figcomplete3_6.eps
 %%Creator: matplotlib version 3.1.1, http://matplotlib.org/
-%%CreationDate: Tue Aug 27 14:26:55 2019
+%%CreationDate: Wed Aug 28 17:23:59 2019
 %%Orientation: portrait
 %%BoundingBox: 79.29375000000002 226.97296875000006 532.70625 565.0270312499999
 %%EndComments
 %%BeginProlog
-/mpldict 8 dict def
+/mpldict 9 dict def
 mpldict begin
 /m { moveto } bind def
 /l { lineto } bind def
@@ -805,6 +805,69 @@ end readonly def
 }_d
 
 FontName currentdict end definefont pop
+%!PS-Adobe-3.0 Resource-Font
+%%Title: DejaVu Sans Oblique
+%%Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved. DejaVu changes are in public domain 
+%%Creator: Converted from TrueType to type 3 by PPR
+25 dict begin
+/_d{bind def}bind def
+/_m{moveto}_d
+/_l{lineto}_d
+/_cl{closepath eofill}_d
+/_c{curveto}_d
+/_sc{7 -1 roll{setcachedevice}{pop pop pop pop pop pop}ifelse}_d
+/_e{exec}_d
+/FontName /DejaVuSans-Oblique def
+/PaintType 0 def
+/FontMatrix[.001 0 0 .001 0 0]def
+/FontBBox[-1016 -350 1659 1068]def
+/FontType 3 def
+/Encoding [ /r ] def
+/FontInfo 10 dict dup begin
+/FamilyName (DejaVu Sans) def
+/FullName (DejaVu Sans Oblique) def
+/Notice (Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved. DejaVu changes are in public domain ) def
+/Weight (Oblique) def
+/Version (Version 2.35) def
+/ItalicAngle -11.0 def
+/isFixedPitch false def
+/UnderlinePosition -130 def
+/UnderlineThickness 90 def
+end readonly def
+/CharStrings 2 dict dup begin
+/.notdef 0 def
+/r{411 0 35 0 463 560 _sc
+446 464 _m
+436 468 426 472 414 475 _c
+402 477 390 479 377 479 _c
+329 479 287 460 251 424 _c
+215 388 192 339 180 279 _c
+125 0 _l
+35 0 _l
+142 547 _l
+232 547 _l
+215 462 _l
+238 493 266 517 300 534 _c
+333 551 368 560 406 560 _c
+415 560 424 559 434 558 _c
+444 557 453 555 463 553 _c
+446 464 _l
+_cl}_d
+end readonly def
+
+/BuildGlyph
+ {exch begin
+ CharStrings exch
+ 2 copy known not{pop /.notdef}if
+ true 3 1 roll get exec
+ end}_d
+
+/BuildChar {
+ 1 index /Encoding get exch get
+ 1 index /BuildGlyph get exec
+}_d
+
+FontName currentdict end definefont pop
 end
 %%EndProlog
 mpldict begin
@@ -1048,8 +1111,8 @@ gsave
 392.2 280.2 54.01 45.29 clipbox
 395.972004 45.29375 m
 428.385227 45.29375 l
-428.385227 155.592292 l
-395.972004 155.592292 l
+428.385227 142.558778 l
+395.972004 142.558778 l
 cl
 gsave
 0.439 0.678 0.278 setrgbcolor
@@ -1514,14 +1577,28 @@ grestore
 gsave
 359.837500 279.596250 translate
 0.000000 rotate
-0.000000 0.000000 m /W glyphshow
-9.887695 0.000000 m /A glyphshow
-16.728516 0.000000 m /S glyphshow
-23.076172 0.000000 m /H glyphshow
-30.595703 0.000000 m /hyphen glyphshow
-34.204102 0.000000 m /r glyphshow
-38.315430 0.000000 m /d glyphshow
-44.663086 0.000000 m /m glyphshow
+/DejaVuSans-Oblique findfont
+10.0 scalefont
+setfont
+0.000000 0.578125 moveto
+/r glyphshow
+
+/DejaVuSans findfont
+10.0 scalefont
+setfont
+4.111328 0.578125 moveto
+/W glyphshow
+
+13.999023 0.578125 moveto
+/A glyphshow
+
+20.839844 0.578125 moveto
+/S glyphshow
+
+27.187500 0.578125 moveto
+/H glyphshow
+
+
 grestore
 
 end

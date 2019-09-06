@@ -16,18 +16,9 @@ def instance_graph():
     # plt.step(xli[1], yli[1], label="random", color="blue")
     plt.plot(x2[0], y2_avg, color="black", label="WASH-greedy", linestyle="-.")
     plt.plot(x3[0], y3_avg, color="green", label="$r$WASH", linestyle="--")
+    plt.legend(loc="upper right")
 
-    #ins1
-    # plt.ylim([0, 7800])
-    # plt.legend(loc="upper right")
-    #ins2
-    # plt.ylim([0, 24500])
-    # plt.legend(loc="upper left")
-    #ins3
-    # plt.ylim([0, 61000])
-    plt.legend(loc="upper left")
-    # ncol = 3
-    file_name = "fig_instance3_1200.eps"
+    file_name = "fig_unbanlancedata3_1.eps"
     plt.savefig(file_name, bbox_inches='tight', format='eps', dpi=5000)
     plt.show()
 
@@ -36,7 +27,7 @@ def instance_graph():
 # Result_data1_10
 
 if __name__ == '__main__':
-    with open("Result_data", "r") as file:
+    with open("Result_data1_16", "r") as file:
         batchs = json.load(file, object_pairs_hook=OrderedDict)
     print(batchs)
     x1 = list()
@@ -76,7 +67,6 @@ if __name__ == '__main__':
 
     y_sum = np.array(y2[0])
     load_sum = load2[0][0]
-    i= 0
     for i in range(1, len(y2)):
         y_sum = y_sum + np.array(y2[i])
         load_sum = load_sum + load2[i][0]
@@ -90,7 +80,6 @@ if __name__ == '__main__':
 
     y_sum = np.array(y3[0])
     load_sum = load3[0][0]
-    i = 0
     for i in range(1, len(y3)):
         y_sum = y_sum + np.array(y3[i])
         load_sum = load_sum + load3[i][0]
@@ -102,10 +91,6 @@ if __name__ == '__main__':
     print(y3_avg)
 
     # instance_graph()
-
-    y1_avg = [i * 10 for i in y1_avg]
-    y2_avg = [i * 10 for i in y2_avg]
-    y3_avg = [ i * 10 for i in y3_avg]
 
     instance_graph()
     print(load1_avg, load2_avg, load3_avg)

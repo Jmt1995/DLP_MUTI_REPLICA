@@ -22,7 +22,7 @@ def init_disks(DISK_num, Latency_range):
     yli = list()
     while disk_id < DISK_num:
         latency = int(round(random.gauss(aver, sigma)))
-        if latency > 0 and latency < DISK_num:
+        if latency > _min and latency < _max:
             xli.append(disk_id)
             yli.append(latency)
             # print(latency)

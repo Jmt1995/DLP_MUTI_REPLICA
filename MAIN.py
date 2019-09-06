@@ -1,6 +1,6 @@
 
 from readFile import readFile
-from init1 import *
+from init2 import *
 import copy
 from collections import OrderedDict
 import json
@@ -25,7 +25,7 @@ def main():
 
     r_data = list()
     x_y_temp = dict()
-    batch = 10
+    batch = 1
     Result_data = list()
 
     for i in range(0, batch):
@@ -35,6 +35,7 @@ def main():
         '''
         print("--------------- Initialize ---------------")
         disks = init_disks(DISK_num, Latency_range)
+        # print("ok")
         data_list, replica_list = init_datas(DATA_NUM, REP_FAC)
 
         deploy_replica(disks, replica_list)
@@ -75,7 +76,8 @@ def main():
 
         print("--------------- HTS-rdm ---------------")
         disk_cp4 = copy.deepcopy(disks)
-        x4, y4, max_load = DLP_random(disk_cp4, data_list, replica_list, REP_FAC)
+        # x4, y4, max_load = DLP_random(disk_cp4, data_list, replica_list, REP_FAC)
+        x4, y4, max_load = DLP_random(disk_cp4, data_list, replica_list)
 
         x_y_temp = dict()
         x_y_temp["x"] = x4
@@ -103,7 +105,7 @@ def main():
     # foo_fig = plt.gcf()  # 'get current figure'
     # foo_fig.savefig('instance.eps', format='eps', dpi=1000)
     # plt.savefig('./plteps.eps', format='eps', dpi=1000)
-    file_name = "fig3_6.eps"
+    file_name = "fig3_7.eps"
     plt.savefig(file_name, bbox_inches='tight', format='eps', dpi=5000)
     plt.show()
 
