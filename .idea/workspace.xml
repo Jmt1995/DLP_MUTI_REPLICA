@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dd3e2ee-0fe3-439e-9425-88d26e9debcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/countError.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphUnbanlanceData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MAIN.py" beforeDir="false" afterPath="$PROJECT_DIR$/MAIN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result_data" beforeDir="false" afterPath="$PROJECT_DIR$/Result_data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result_data1_5" beforeDir="false" afterPath="$PROJECT_DIR$/Result_data1_5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result_data1_7" beforeDir="false" afterPath="$PROJECT_DIR$/Result_data1_7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result_data1_9" beforeDir="false" afterPath="$PROJECT_DIR$/Result_data1_9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fig_instance2_6.eps" beforeDir="false" afterPath="$PROJECT_DIR$/fig_instance2_6.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figcomplete1_5.eps" beforeDir="false" afterPath="$PROJECT_DIR$/figcomplete1_5.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figcomplete2_5.eps" beforeDir="false" afterPath="$PROJECT_DIR$/figcomplete2_5.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figcomplete3_5.eps" beforeDir="false" afterPath="$PROJECT_DIR$/figcomplete3_5.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph_complete.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph_complete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init1.py" beforeDir="false" afterPath="$PROJECT_DIR$/init1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init2.py" beforeDir="false" afterPath="$PROJECT_DIR$/init2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t4.py" beforeDir="false" afterPath="$PROJECT_DIR$/t4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据集说明.txt" beforeDir="false" afterPath="$PROJECT_DIR$/数据集说明.txt" afterDir="false" />
-    </list>
+    <list default="true" id="4dd3e2ee-0fe3-439e-9425-88d26e9debcb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,29 +9,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$tt.coverage" NAME="tt Coverage Results" MODIFIED="1565167608237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$graphy_motivation.coverage" NAME="graphy_motivation Coverage Results" MODIFIED="1565871175392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$MAIN.coverage" NAME="MAIN Coverage Results" MODIFIED="1567127740854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$init.coverage" NAME="init Coverage Results" MODIFIED="1565169499991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$graph_complete.coverage" NAME="graph_complete Coverage Results" MODIFIED="1567131587194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1565188323196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$t4.coverage" NAME="t4 Coverage Results" MODIFIED="1567001917939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$graph.coverage" NAME="graph Coverage Results" MODIFIED="1567132496603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$tt2.coverage" NAME="tt2 Coverage Results" MODIFIED="1565169577686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$graphy_motivation.coverage" NAME="graphy_motivation Coverage Results" MODIFIED="1565871175392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$graph_old.coverage" NAME="graph_old Coverage Results" MODIFIED="1565710537311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$graphUnbanlanceData.coverage" NAME="graphUnbanlanceData Coverage Results" MODIFIED="1567038560401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$tt2.coverage" NAME="tt2 Coverage Results" MODIFIED="1565169577686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$graph.coverage" NAME="graph Coverage Results" MODIFIED="1567132496603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$countError.coverage" NAME="countError Coverage Results" MODIFIED="1566798480856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$tt.coverage" NAME="tt Coverage Results" MODIFIED="1565167608237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$t3.coverage" NAME="t3 Coverage Results" MODIFIED="1565449325456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$init3.coverage" NAME="init3 Coverage Results" MODIFIED="1567127732750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$lp_python.coverage" NAME="lp-python Coverage Results" MODIFIED="1565170347951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$countError.coverage" NAME="countError Coverage Results" MODIFIED="1566798480856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$t3.coverage" NAME="t3 Coverage Results" MODIFIED="1565449325456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1565188323196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$graphUnbanlanceData.coverage" NAME="graphUnbanlanceData Coverage Results" MODIFIED="1567038560401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$graph_complete.coverage" NAME="graph_complete Coverage Results" MODIFIED="1567131587194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$LP1.coverage" NAME="LP1 Coverage Results" MODIFIED="1565446166016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DLP_MUTI_REPLICA$t4.coverage" NAME="t4 Coverage Results" MODIFIED="1567001917939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MAIN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
+            <state relative-caret-position="900">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#1#30#0" expanded="true" />
@@ -63,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph_old.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
+            <state relative-caret-position="725">
               <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
@@ -75,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/init3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
+            <state relative-caret-position="25">
               <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -87,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/init2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="350">
               <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -100,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/graph_complete.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
-              <caret line="356" column="26" lean-forward="true" selection-start-line="356" selection-start-column="26" selection-end-line="356" selection-end-column="26" />
+              <caret line="356" column="26" selection-start-line="356" selection-start-column="26" selection-end-line="356" selection-end-column="26" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -111,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="200">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -120,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphy_motivation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
+            <state relative-caret-position="1500">
               <caret line="60" column="36" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="36" />
             </state>
           </provider>
@@ -129,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="675">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -237,9 +217,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="17" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="473" />
+    <option name="y" value="242" />
     <option name="width" value="1386" />
     <option name="height" value="932" />
   </component>
@@ -249,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,11 +240,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/BBSPro7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -468,11 +448,12 @@
       <workItem from="1565777262037" duration="14202000" />
       <workItem from="1566797131057" duration="24471000" />
       <workItem from="1567514088735" duration="19000" />
+      <workItem from="1567779093219" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172641000" />
+    <option name="totallyTimeSpent" value="172645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,10 +465,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="473" y="242" width="1386" height="932" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116204694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16591252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -506,7 +486,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.39072496" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.55279034" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
@@ -537,20 +517,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../DLP/venv/Lib/site-packages/matplotlib/axes/_axes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="246" selection-start-line="246" selection-end-line="246" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DLP/venv/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="3062" selection-start-line="3062" selection-end-line="3062" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../DLP/venv/Lib/site-packages/matplotlib/axes/_axes.py" />
+    <entry file="file://$PROJECT_DIR$/../DLP/venv/Lib/site-packages/matplotlib/pyplot.py" />
     <entry file="file://$PROJECT_DIR$/lp-python.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/scipy/optimize/_linprog_ip.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -775,7 +743,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MAIN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
+        <state relative-caret-position="900">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#1#30#0" expanded="true" />
@@ -785,7 +753,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graph_old.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
+        <state relative-caret-position="725">
           <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
@@ -795,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/init3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
+        <state relative-caret-position="25">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -805,7 +773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/init2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="350">
           <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -815,22 +783,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="200">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graphy_motivation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
+        <state relative-caret-position="1500">
           <caret line="60" column="36" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="675">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
@@ -847,7 +815,7 @@
     <entry file="file://$PROJECT_DIR$/graph_complete.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
-          <caret line="356" column="26" lean-forward="true" selection-start-line="356" selection-start-column="26" selection-end-line="356" selection-end-column="26" />
+          <caret line="356" column="26" selection-start-line="356" selection-start-column="26" selection-end-line="356" selection-end-column="26" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
