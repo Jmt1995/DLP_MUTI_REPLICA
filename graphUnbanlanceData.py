@@ -5,8 +5,25 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 
-def instance_graph():
+def instance_graph(y1_avg, y2_avg, y3_avg):
     # plt.figure()
+
+    # data = np.array([y1_avg, y2_avg, y3_avg])
+    # data = data.transpose()
+    # print(data)
+    # idex = np.lexsort([ -1 * data[:, 1]])
+    # sorted_data = data[idex, :]
+    # print(sorted_data)
+    #
+    # sorted_data = sorted_data.transpose()
+    #
+    # y1_avg = list(sorted_data[0])
+    # y2_avg = list(sorted_data[1])
+    # y3_avg = list(sorted_data[2])
+
+    y1_avg.sort(reverse=True)
+    y2_avg.sort(reverse=True)
+    y3_avg.sort(reverse=True)
 
     plt.xticks(fontsize=14)
     plt.yticks(fontsize=14)
@@ -18,7 +35,7 @@ def instance_graph():
     plt.plot(x3[0], y3_avg, color="green", label="$r$WASH", linestyle="--")
     plt.legend(loc="upper right")
 
-    file_name = "fig_unbanlancedata3_1.eps"
+    file_name = "fig_unbanlancedata1_3.eps"
     plt.savefig(file_name, bbox_inches='tight', format='eps', dpi=5000)
     plt.show()
 
@@ -27,7 +44,7 @@ def instance_graph():
 # Result_data1_10
 
 if __name__ == '__main__':
-    with open("Result_data1_16", "r") as file:
+    with open("Result_data1_14", "r") as file:
         batchs = json.load(file, object_pairs_hook=OrderedDict)
     print(batchs)
     x1 = list()
@@ -62,6 +79,7 @@ if __name__ == '__main__':
     y1_avg = y_sum/(i + 1)
     load1_avg = load_sum/(i + 1)
     y1_avg = list(y1_avg)
+
     print(y1)
     print(y1_avg)
 
@@ -92,8 +110,7 @@ if __name__ == '__main__':
 
     # instance_graph()
 
-    instance_graph()
-    print(load1_avg, load2_avg, load3_avg)
+    instance_graph(y1_avg, y2_avg, y3_avg)
 
 
 
